@@ -1,1 +1,1 @@
-# hungry-people
+# Сайт hungry-people - https://eto-dedog.github.io/hungry-people/

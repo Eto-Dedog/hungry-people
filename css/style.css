@@ -1,0 +1,700 @@
+/* Общие настройки  */
+* {
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: auto;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,h2 {
+    font-family: 'Big Shoulders Stencil Display', cursive;
+}
+/* Голова  */
+.header__block {
+    display: flex;
+    justify-content: space-between;
+}
+.nav__link {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 40px;
+    color: #ffffff;
+}
+.nav__border {
+    padding-bottom: 44px;
+    border-bottom: 1px solid  rgba(255, 255, 255, 0.2);
+}
+.navigation__header {
+    padding-top: 44px;
+}
+.logo__header {
+    padding-top: 25px;
+}
+/* Промо Блок */
+.promo__section {
+    padding-top: 326px;
+    padding-bottom: 225px;
+    margin-top: -180px;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/header-bg.png) no-repeat center / cover;
+}
+.promo__block{
+    display: flex;
+    justify-content: space-between;
+}
+/* Линии  */ /* Если что можно убрать */
+.line__left {
+    margin-top: 184px;
+    position: absolute;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    width: 800px;
+    height: 1px;
+    transform: rotate(-90deg);
+}
+.line__right{
+    margin-left: 1010px;
+    margin-top: 184px;
+    position: absolute;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    width: 800px;
+    height: 1px;
+    transform: rotate(-90deg);
+}
+.line__center {
+    margin-left: 540px;
+    margin-top: 250px;
+    position: absolute;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    width: 800px;
+    height: 1px;
+    transform: rotate(-90deg);
+}
+/* Левый Промо Блок */
+.left__block__promo {
+    margin-left: -135px;
+    padding-top: 110px;
+    width: 269px;
+    height: 16px;
+}
+.schedule {
+    font-size: 12px;
+    color: #FFFFFF;
+    transform: rotate(-90deg);
+}
+/* Центральный Промо Блок */
+.center__block__promo {
+    margin-left: -100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* title */
+.title__promo{
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+}
+.head__promo {
+    font-size: 12px;
+    letter-spacing: 0.5em;
+}
+.bottom__promo {
+    font-size: 96px;
+    letter-spacing: 0.2em;
+}
+/* branch */
+.branch {
+    width: 60px;
+    height: 5.11px;
+    background: #e8c300;
+    border-radius: 50px;
+    margin-top: 38px;
+}
+/* button block */
+.button__promo__block{
+    margin-top: 30px;
+    padding-top: 30px;
+}
+.button__promo {
+    text-decoration: none;
+    color: #ffffff;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    padding-left: 62px;
+    padding-right: 62px;
+}
+.button__promo--left {
+    background: rgb(230, 191, 0);
+    border-radius: 5px;
+}
+.button__promo--right {
+    margin:25px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+/* button__arrow__block */
+.button__arrow__block {
+    padding-top: 82px;
+    margin-top: 40px;
+}
+.circle {
+    width: 60px;
+    height: 60px;
+    border-radius:50px;
+    border: 1px solid rgba(255, 255, 255, 0.2)
+}
+.circle--ar{
+    font-size: 24px;
+    margin-top: 3px;
+    margin-left: 4px;
+    padding-left:18px;
+    padding-top: 4px;
+    background: #ffffff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+.link__ar {
+    text-decoration: none;
+    color: black;
+}
+/* Правый Промо Блок */
+.link__circle {
+    padding: 20px;
+}
+.circle--fb {
+    background: url(../img/facebock.svg) no-repeat center;
+}
+.circle--tw {
+    background: url(../img/twiter.svg) no-repeat center;
+}
+.circle--in {
+    background:url(../img/instagram.svg) no-repeat center;
+}
+/* Блок о нас */
+.info__block {
+    display: flex;
+}
+.about__us__section{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+/* Блок с текстом */
+.text__info__block {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+}
+.text__block {
+    padding-top: 20px;
+}
+.title__info{
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+.text__info {
+    font-size: 18px;
+}
+.text__info__large {
+    font-size: 21px;
+    font-weight: bold;
+}
+.text__large__block {
+    padding-bottom: 50px;
+}
+/* Блок с картой */
+.img__card {
+    width: 600px;
+    height: 475px;
+    filter: drop-shadow(0px 0px 100px rgba(0, 0, 0, 0.5));
+}
+.img__card--fire {
+    background:url(../img/fire.png) no-repeat center;
+}
+.img__card__square {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border: 20px solid #E8C300;
+    border-radius: 5px;
+    filter: drop-shadow(0px 0px 100px rgba(0, 0, 0, 0.5));
+}
+.img__card__square--right {
+    margin-top: 115px;
+    margin-left: 410px;
+}
+/* Блок с нашей командой */
+.our__team__section {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/specialtys-bg.png) no-repeat center / cover;
+}
+.block__our__team {
+    display: flex;
+    padding-bottom: 100px;
+}
+.title__section {
+    letter-spacing: 0.5em;
+    font-size: 16px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 41px;
+    padding-bottom: 41px;
+}
+.img__card--left{
+    margin-left: 50px;
+}
+.img__card__square--left{
+    margin-top: 115px;
+    margin-left:-60px;
+}
+.img__card--cook {
+    background: url(../img/cook.png) no-repeat center;
+}
+.title__info--white {
+    color: #FFFFFF;
+}
+.text__info__large--white {
+    color: #ffffff;
+}
+.text__info--white {
+    color: #FFFFFF;
+}
+/* Блок заказа столика */
+.place__order__block {
+    padding-top: 111px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.img__card--clock{
+    background: url(../img/clock.png) no-repeat center;
+}
+.bottom__text__block {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.bottom__text{
+    font-size: 16px;
+    color: rgba(51, 51, 51, 0.5);
+}
+.bottom__text__dedicated {
+    font-weight: bold;
+}
+.input__block {
+    padding-top: 20px;
+}
+.input__box {
+    padding-bottom: 10px;
+}
+::placeholder {
+    padding-left: 5px;
+}
+.input__field {
+    width: 277px;
+    height: 60px;
+    background: #E5E5E5;
+    border-radius: 5px;
+    border-color: #ffffff;
+}
+.button {
+    background: #E8C300;
+    border-radius: 5px;
+    color: #ffffff;
+    border-color:#E8C300;
+    width: 563.58px;
+    height: 60px;
+}
+/* Блок специалистов */
+.specialties__section {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/spec-bg.png) no-repeat center / cover;
+}
+.img__card--dish {
+    background: url(../img/dish.png) no-repeat center;
+}
+.specialties__block {
+    display: flex;
+}
+.mini__circle__block {
+    display: flex;
+    justify-content: center;
+}
+.mini__circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    margin:20px;
+    margin-bottom: 40px;
+}
+.mini__circle--shadow {
+    opacity: 0.5;
+}
+/* Блок с вкусным меню */
+.text__delicious__menu {
+    max-width: 565px;
+    max-height: 76px;
+}
+.delicious__link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #333333;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.delicious__menu__box {
+    padding-top: 30px;
+    padding-bottom: 55px;
+}
+.border__delicious__link {
+    border-left: 2px solid rgba(51, 51, 51, 0.2);
+}
+/* Лист товаров */
+.menu__cards__block {
+    padding-bottom: 100px;
+}
+.menu__list__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.menu__cards__block {
+    display: flex;
+}
+.list__card {
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+.list__title {
+    letter-spacing: 0.2em;
+    font-size: 18px;
+}
+.list__text {
+    color: rgba(51, 51, 51, 0.5);
+    font-size: 12px;
+}
+/* Частные события */
+.events__section{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/spec-bg.png) no-repeat center / cover;
+}
+.bottom__bold__text{
+    color: rgba(255, 255, 255, 0.7);
+}
+.bottom__color__text {
+    color: rgba(255, 255, 255, 0.5);
+}
+.img__block {
+    display: flex;
+}
+.img__card--ring {
+    background: url(../img/ring.png) no-repeat center;
+}
+.img__card--wedding {
+    background: url(../img/wedding.png) no-repeat center;
+}
+.img__card__rectangle {
+    position: absolute;
+    width: 80px;
+    height: 475px;
+    background: #000000;
+    border-radius: 0px 5px 5px 0px;
+}
+.img__card__rectangle--left {
+    margin-left: 500px;
+}
+.text__rectangle {
+    color: #FFFFFF;
+    font-size: 24px;
+    width: 225px;
+    letter-spacing: 0.2em;
+}
+.text__rectangle--left {
+    padding-top: 150px;
+    padding-left: 80px;
+    transform: rotate(90deg)
+}
+.text__rectangle--right {
+    padding-bottom: 600px;
+    padding-right: 180px;
+    padding-left: 500px;
+    transform: rotate(-90deg)
+}
+/* Блок с доп картинками */
+.img__buttom__block {
+    display: flex;
+    margin-left: -180px;
+}
+.add__img{
+    width: 360px;
+    height: 360px;
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+    margin: 20px;
+}
+/* Блок контактов */
+.input__field__contact {
+    width: 420px;
+    height: 60px;
+    border-radius: 5px;
+    border-color: #ffffff;
+    background: #E5E5E5;
+}
+.input__field__contact__large {
+    margin-top: 10px;
+    width: 1270px;
+    height: 120px;
+    border-radius: 5px;
+    border-color: #ffffff;
+    background: #E5E5E5;
+    margin-bottom: 10px;
+}
+.add__info__text {
+    font-size: 14PX;
+}
+.add__info__block{
+    display: flex;
+}
+.add__info__box {
+    display: flex;
+}
+.add__info__text {
+    padding: 13px;
+    color:rgba(51, 51, 51, 0.5);
+}
+.icon__add {
+    padding-right: 3px;
+}
+/* Секция Подвала */
+.maps__section {
+    margin-top: 100px;
+    padding-top: 400px;
+    padding-bottom: 400px;
+    background: url(../img/maps.png) no-repeat center / cover;
+}
+.footer__section {
+    background: rgba(0, 0, 0, 0.9);
+}
+.footer__block {
+    text-align: center;
+}
+.footer__text {
+    padding-top: 42px;
+    padding-bottom: 42px;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.5);
+}
+/* Адаптация */
+@media (max-width:1535px) {
+    .text__info__block {
+        padding-left: 5%;
+    }
+    .card__info__block {
+        padding-right: 5%;
+    }
+    .img__buttom__block {
+        flex-wrap: wrap;
+        margin-left: 0px;
+        justify-content: center;
+    }
+    .img__block {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .card__info__block {
+        flex-wrap: wrap;
+        padding-bottom: 20px;
+    }
+    .promo__block {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .message__block {
+        padding-right: 5%;
+    }
+    .block__our__team {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .place__order__block {
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
+    .card__info__block {
+        padding-top: 20px;
+    }
+    .info__block {
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
+    .add__info__box {
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:1346px) {
+    .input__field__contact__large {
+        width: 600px;
+    }
+}
+@media (max-width:1200px) {
+    .text__info__block {
+        padding-right: 5%;
+    }
+    .menu__list--adpt__option {
+        display: none;
+    }
+    .add__info__block{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media (max-width:960px) {
+    .navigation__header {
+        display: none;
+    }
+    .header__block{
+        justify-content: center;
+    }
+    .schedule {
+        padding-top: 20%;
+    }
+    .input__field__contact__large {
+        width: 420px;
+    }
+    .delicious__menu__box {
+        display: flex;
+        flex-direction: column;
+    }
+@media (max-width:768px) {
+    .img__card__square--left {
+        display: none;
+    }
+    .img__card__square--right {
+        display: none;
+    }
+    .text__rectangle {
+        display: none;
+    }
+    .card__info__block {
+        display: none;
+    }
+    .input__block {
+        width: 50%;
+    }
+    .button {
+        width: 300px;
+    }
+    .schedule {
+        display: none;
+    }
+    .promo__block {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .center__block__promo {
+        margin: 0px;
+    }
+    .link__circle__block {
+        display: flex;
+    }
+}
+@media (max-width:576px) {
+    .input__field {
+        width: auto;
+    }
+    .input__field__contact {
+        width: auto;
+    }
+    .input__field__contact__large {
+        width: auto;
+    }
+    .title__promo {
+        font-size: 24px;
+    }
+    .button__promo__block {
+        display: flex;
+        flex-direction: column;
+    }
+    .list__card {
+        padding-left: 15%;
+    }
+    .add__img {
+        width: 160px;
+        height: 160px;
+    }
+    .bottom__text__block {
+        width: 50%;
+        margin: auto;
+    }
+    .text__info__block {
+        padding-right: 2%;
+    }
+} 
+}
+/* Анимация */
+.button__promo--left:hover {
+    animation: bg-left-button 3s infinite;
+}
+@keyframes bg-left-button {
+    from {background:rgb(232, 195, 0)}
+    to {background:sienna;}
+}
+.button__promo--right:hover {
+    animation: bg-right-button 6s infinite;
+}
+@keyframes bg-right-button {
+    25% {background: rgba(232, 195, 0, 0.2)}
+    50% {background: rgba(232, 195, 0, 0.5)}
+    75% {background: rgba(232, 195, 0, 0.7)}
+    to {background: rgba(232, 195, 0, 0.8)}
+}
+.button:hover {
+    cursor: pointer;
+}
+.nav__link:hover{
+    animation: link-bg 4s infinite;
+}
+@keyframes link-bg {
+    50% {background:rgba(255, 255, 255, 0.3);}
+}
+.circle:hover {
+    animation: roll 3s infinite;
+}
+@keyframes roll {
+    50% {background: rgba(124, 65, 16, 0.5);}
+}
+.circle--ar:hover {
+    animation: ar-bot 3s infinite;
+}
+@keyframes ar-bot {
+    50% {background: rgba(163, 82, 16, 0.8);}
+}
+.anim__button:hover {
+    animation: fill 3s infinite;
+}
+@keyframes fill {
+    50% {background: rgba(226, 139, 8, 0.8);}
+}
+.delicious__link:hover {
+    animation: gg 2s infinite;
+}
+@keyframes gg {
+    50% {background:rgba(0, 0, 0, 0.5);
+    color: rgba(192, 94, 13, 0.8);}
+}
